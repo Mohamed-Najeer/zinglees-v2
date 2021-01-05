@@ -490,9 +490,14 @@ background-color: white;
       .aboutcontent-right{
         padding-top: 14px;
       }
-      /* #myCarousel .carousel-inner {
-        padding: 10% 0% 0% 0%;
-      } */
+      .subscribeBox .bgimg {
+        background: url(../bsicons/envelope-fill.svg)0 0 / 58% 100% no-repeat;
+    }
+    }
+    @media(max-width:1440px){
+      .subscribeBox .bgimg {
+        background: url(../bsicons/envelope-fill.svg)0 0 / 25% 100% no-repeat;
+    }
     }
 @media(max-width:1026px){
     .aboutcontent-right p{
@@ -504,9 +509,6 @@ background-color: white;
       .aboutcontent-right{
         padding-top: 14px;
       }
-      /* #myCarousel .carousel-inner {
-        padding: 0% 0% 0% 0%;
-      } */
 }
 @media(max-width:770px){
     .aboutcontent-right p{
